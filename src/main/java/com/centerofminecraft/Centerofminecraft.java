@@ -19,6 +19,6 @@ public class Centerofminecraft implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Center of Minecraft initialized! - FRC Team 47");
 	}
 }

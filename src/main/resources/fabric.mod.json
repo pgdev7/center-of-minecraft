@@ -2,15 +2,12 @@
 	"schemaVersion": 1,
 	"id": "centerofminecraft",
 	"version": "${version}",
-	"name": "centerofminecraft",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Center of Minecraft",
+	"description": "A Minecraft mod by FRC Team 47.",
 	"authors": [
-		"Me!"
+		"FRC Team 47"
 	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
+	"contact": {},
 	"license": "CC0-1.0",
 	"icon": "assets/centerofminecraft/icon.png",
 	"environment": "*",
