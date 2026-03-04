@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "centerofminecraft",
+	"version": "1.0.0",
+	"name": "Center of Minecraft",
+	"description": "A Minecraft mod by FRC Team 47.",
+	"authors": [
+		"FRC Team 47"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "assets/centerofminecraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.centerofminecraft.Centerofminecraft"
+		],
+		"client": [
+			"com.centerofminecraft.CenterofminecraftClient"
+		]
+	},
+	"mixins": [
+		"centerofminecraft.mixins.json",
+		{
+			"config": "centerofminecraft.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
