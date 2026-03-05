@@ -2217,3 +2217,109 @@ com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication 
 [11:12:34] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
 [11:12:34] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
 [11:12:34] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[11:13:46] [Server thread/INFO] (net.minecraft.server.network.ServerGamePacketListenerImpl) Player364 lost connection: Disconnected
+[11:13:46] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Player364 left the game
+[11:13:46] [Server thread/INFO] (net.minecraft.server.network.ServerCommonPacketListenerImpl) Stopping singleplayer server as player logged out
+[11:13:46] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Stopping server
+[11:13:46] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving players
+[11:13:46] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving worlds
+[11:13:46] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[11:13:49] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[11:13:49] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[11:13:49] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[11:13:49] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:13:49] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:13:49] [Server thread/INFO] (net.minecraft.server.MinecraftServer) ThreadedAnvilChunkStorage: All dimensions are saved
+[11:13:57] [Server Pinger #0/DEBUG] (io.netty.util.internal.NativeLibraryLoader) -Dio.netty.native.workdir: /var/folders/sl/zgw0ph655rgf_hk_rvrlrjwd6gxzh2/T (io.netty.tmpdir)
+[11:13:57] [Server Pinger #0/DEBUG] (io.netty.util.internal.NativeLibraryLoader) -Dio.netty.native.deleteLibAfterLoading: true
+[11:13:57] [Server Pinger #0/DEBUG] (io.netty.util.internal.NativeLibraryLoader) -Dio.netty.native.tryPatchShadedId: true
+[11:13:57] [Server Pinger #0/DEBUG] (io.netty.util.internal.NativeLibraryLoader) -Dio.netty.native.detectNativeLibraryDuplicates: true
+[11:13:57] [Server Pinger #0/DEBUG] (io.netty.util.internal.NativeLibraryLoader) Successfully loaded the library /var/folders/sl/zgw0ph655rgf_hk_rvrlrjwd6gxzh2/T/libnetty_transport_native_kqueue_aarch_6410265021561464601054.dylib
+[11:13:57] [Server Pinger #0/DEBUG] (FabricLoader/Mixin) Mixing accessor.ConnectScreenAccessor from fabric-networking-api-v1.client.mixins.json into net.minecraft.client.gui.screens.ConnectScreen
+[11:13:57] [Server Pinger #0/ERROR] (net.minecraft.client.multiplayer.ServerStatusPinger) Can't ping centerofminecraft.aternos.me : Unknown host
+[11:13:58] [IO-Worker-5/DEBUG] (com.mojang.authlib.minecraft.client.MinecraftClient) Connecting to https://api.minecraftservices.com/privacy/blocklist
+[11:13:58] [Download-4/DEBUG] (com.mojang.authlib.minecraft.client.MinecraftClient) Connecting to https://api.minecraftservices.com/player/certificates
+[11:13:58] [Render thread/INFO] (net.minecraft.client.gui.screens.ConnectScreen) Connecting to centerofminecraft.aternos.me , 25565
+[11:13:58] [Download-4/ERROR] (net.minecraft.client.multiplayer.AccountProfileKeyPairManager) Failed to retrieve profile key pair
+com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:103)
+	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.post(MinecraftClient.java:64)
+	at knot//com.mojang.authlib.yggdrasil.YggdrasilUserApiService.getKeyPair(YggdrasilUserApiService.java:61)
+	at knot//net.minecraft.client.multiplayer.AccountProfileKeyPairManager.fetchProfileKeyPair(AccountProfileKeyPairManager.java:128)
+	at knot//net.minecraft.client.multiplayer.AccountProfileKeyPairManager.method_44291(AccountProfileKeyPairManager.java:77)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1814)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+[11:13:59] [IO-Worker-5/DEBUG] (com.mojang.authlib.minecraft.client.MinecraftClient) Connecting to https://api.minecraftservices.com/privacy/blocklist
+[11:13:59] [Download-4/DEBUG] (com.mojang.authlib.minecraft.client.MinecraftClient) Connecting to https://api.minecraftservices.com/player/certificates
+[11:13:59] [Render thread/INFO] (net.minecraft.client.gui.screens.ConnectScreen) Connecting to centerofminecraft.aternos.me , 25565
+[11:13:59] [Download-4/ERROR] (net.minecraft.client.multiplayer.AccountProfileKeyPairManager) Failed to retrieve profile key pair
+com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:103)
+	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.post(MinecraftClient.java:64)
+	at knot//com.mojang.authlib.yggdrasil.YggdrasilUserApiService.getKeyPair(YggdrasilUserApiService.java:61)
+	at knot//net.minecraft.client.multiplayer.AccountProfileKeyPairManager.fetchProfileKeyPair(AccountProfileKeyPairManager.java:128)
+	at knot//net.minecraft.client.multiplayer.AccountProfileKeyPairManager.method_44291(AccountProfileKeyPairManager.java:77)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1814)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+[11:14:05] [Render thread/DEBUG] (net.fabricmc.fabric.impl.resource.pack.ModPackResourcesUtil) [Fabric] Starting internal pack sorting with: [fabric-convention-tags-v2, fabric-gametest-api-v1]
+[11:14:05] [Render thread/DEBUG] (net.fabricmc.fabric.impl.resource.pack.ModPackResourcesUtil) [Fabric] Removed all internal packs, result: []
+[11:14:05] [Render thread/DEBUG] (net.fabricmc.fabric.impl.resource.pack.ModPackResourcesUtil) [Fabric] Final sorting result: []
+[11:14:05] [Render thread/DEBUG] (net.fabricmc.fabric.impl.resource.pack.ModPackResourcesUtil) [Fabric] Starting internal pack sorting with: [vanilla, fabric-convention-tags-v2, fabric-gametest-api-v1]
+[11:14:05] [Render thread/DEBUG] (net.fabricmc.fabric.impl.resource.pack.ModPackResourcesUtil) [Fabric] Removed all internal packs, result: [vanilla]
+[11:14:05] [Render thread/DEBUG] (net.fabricmc.fabric.impl.resource.pack.ModPackResourcesUtil) [Fabric] cur @ vanilla, auto-enabled fabric-convention-tags-v2, currently enabled: [vanilla, fabric-convention-tags-v2]
+[11:14:05] [Render thread/DEBUG] (net.fabricmc.fabric.impl.resource.pack.ModPackResourcesUtil) [Fabric] cur @ vanilla, auto-enabled fabric-gametest-api-v1, currently enabled: [vanilla, fabric-convention-tags-v2, fabric-gametest-api-v1]
+[11:14:05] [Render thread/DEBUG] (net.fabricmc.fabric.impl.resource.pack.ModPackResourcesUtil) [Fabric] Final sorting result: [vanilla, fabric-convention-tags-v2, fabric-gametest-api-v1]
+[11:14:05] [Render thread/INFO] (net.minecraft.world.item.crafting.RecipeManager) Loaded 1470 recipes
+[11:14:05] [Render thread/INFO] (net.minecraft.advancements.AdvancementTree) Loaded 1584 advancements
+[11:14:05] [Render thread/INFO] (net.fabricmc.fabric.impl.biome.modification.BiomeModificationImpl) Applied 0 biome modifications to 0 of 65 new biomes in 256.8 μs
+[11:14:05] [Server thread/INFO] (net.minecraft.client.server.IntegratedServer) Starting integrated minecraft server version 1.21.11
+[11:14:05] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Generating keypair
+[11:14:06] [Server thread/INFO] (net.minecraft.server.level.progress.LoggingLevelLoadListener) Loading 0 persistent chunks...
+[11:14:06] [Server thread/INFO] (net.minecraft.server.level.progress.LoggingLevelLoadListener) Preparing spawn area: 16%
+[11:14:06] [Netty Local IO #4/DEBUG] (ClientPlayNetworkAddon for Player364) Handling inbound packet from channel with name "minecraft:register"
+[11:14:06] [Netty Local IO #5/DEBUG] (ServerConfigurationNetworkAddon for Player364) Handling inbound packet from channel with name "minecraft:register"
+[11:14:06] [Netty Local IO #4/DEBUG] (ClientPlayNetworkAddon for Player364) Handling inbound packet from channel with name "minecraft:brand"
+[11:14:06] [Netty Local IO #4/DEBUG] (ClientPlayNetworkAddon for Player364) Handling inbound packet from channel with name "fabric:accepted_attachments_v1"
+[11:14:06] [Netty Local IO #5/DEBUG] (ServerConfigurationNetworkAddon for Player364) Handling inbound packet from channel with name "fabric:accepted_attachments_v1"
+[11:14:06] [Netty Local IO #4/DEBUG] (ClientPlayNetworkAddon for Player364) Handling inbound packet from channel with name "c:version"
+[11:14:06] [Netty Local IO #4/DEBUG] (ClientPlayNetworkAddon for Player364) Negotiated common packet version 1
+[11:14:06] [Netty Local IO #5/DEBUG] (ServerConfigurationNetworkAddon for Player364) Handling inbound packet from channel with name "c:version"
+[11:14:06] [Netty Local IO #5/DEBUG] (ServerConfigurationNetworkAddon for Player364) Negotiated common packet version 1
+[11:14:06] [Netty Local IO #4/DEBUG] (ClientPlayNetworkAddon for Player364) Handling inbound packet from channel with name "c:register"
+[11:14:06] [Netty Local IO #4/DEBUG] (fabric-networking-api-v1) Received accepted channels from the server
+[11:14:06] [Netty Local IO #5/DEBUG] (ServerConfigurationNetworkAddon for Player364) Handling inbound packet from channel with name "c:register"
+[11:14:06] [Netty Local IO #5/DEBUG] (fabric-networking-api-v1) Received accepted channels from the client for play phase
+[11:14:06] [Netty Local IO #4/DEBUG] (ClientPlayNetworkAddon for Player364) Handling inbound packet from channel with name "fabric:custom_ingredient_sync"
+[11:14:06] [Netty Local IO #5/DEBUG] (ServerConfigurationNetworkAddon for Player364) Handling inbound packet from channel with name "fabric:custom_ingredient_sync"
+[11:14:06] [Render thread/DEBUG] (ClientPlayNetworkAddon for Player364) Handling inbound packet from channel with name "minecraft:brand"
+[11:14:06] [Render thread/DEBUG] (net.fabricmc.fabric.impl.resource.pack.ModPackResourcesUtil) [Fabric] Starting internal pack sorting with: []
+[11:14:06] [Render thread/DEBUG] (net.fabricmc.fabric.impl.resource.pack.ModPackResourcesUtil) [Fabric] Removed all internal packs, result: []
+[11:14:06] [Render thread/DEBUG] (net.fabricmc.fabric.impl.resource.pack.ModPackResourcesUtil) [Fabric] Final sorting result: []
+[11:14:06] [Render thread/DEBUG] (net.fabricmc.fabric.impl.resource.pack.ModPackResourcesUtil) [Fabric] Starting internal pack sorting with: [vanilla, fabric-convention-tags-v2, fabric-gametest-api-v1]
+[11:14:06] [Render thread/DEBUG] (net.fabricmc.fabric.impl.resource.pack.ModPackResourcesUtil) [Fabric] Removed all internal packs, result: [vanilla, fabric-convention-tags-v2, fabric-gametest-api-v1]
+[11:14:06] [Render thread/DEBUG] (net.fabricmc.fabric.impl.resource.pack.ModPackResourcesUtil) [Fabric] Final sorting result: [vanilla, fabric-convention-tags-v2, fabric-gametest-api-v1]
+[11:14:06] [Server thread/DEBUG] (SynchronizeRegistriesTaskMixin) Synchronizing registries with common known packs: [vanilla:fabric-gametest-api-v1:3.1.27+4fc5413f3e, minecraft:core:1.21.11, vanilla:fabric-convention-tags-v2:2.17.3+8ef948ba3e]
+[11:14:06] [Server thread/INFO] (net.minecraft.server.level.progress.LoggingLevelLoadListener) Loading 49 chunks for player spawn...
+[11:14:06] [Server thread/INFO] (net.minecraft.server.level.progress.LoggingLevelLoadListener) Preparing spawn area: 16%
+[11:14:07] [Server thread/INFO] (net.minecraft.server.level.progress.LoggingLevelLoadListener) Preparing spawn area: 16%
+[11:14:07] [Worker-Main-10/DEBUG] (FabricLoader/Mixin) Mixing ChunkSectionBlockStateCounterMixin from fabric-block-api-v1.mixins.json into net.minecraft.world.level.chunk.LevelChunkSection$1BlockCounter
+[11:14:07] [Server thread/INFO] (net.minecraft.server.level.progress.LoggingLevelLoadListener) Preparing spawn area: 59%
+[11:14:07] [Server thread/INFO] (net.minecraft.server.level.progress.LoggingLevelLoadListener) Time elapsed: 1672 ms
+[11:14:07] [Server thread/INFO] (net.minecraft.server.players.PlayerList) Player364[local:E:c2f0b0cd] logged in with entity id 972 at (-4.575644556379657, 120.0, -20.95592753928062)
+[11:14:07] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Player364 joined the game
+[11:14:07] [Render thread/INFO] (net.minecraft.advancements.AdvancementTree) Loaded 5 advancements
+[11:14:07] [Netty Local IO #5/DEBUG] (ServerPlayNetworkAddon for literal{Player364}[style={clickEvent=SuggestCommand[command=/tell Player364 ],hoverEvent=ShowEntity[entity=net.minecraft.network.chat.HoverEvent$EntityTooltipInfo@f0e0daf7],insertion=Player364}]) Handling inbound packet from channel with name "minecraft:register"
+[11:14:07] [Server thread/INFO] (net.minecraft.client.server.IntegratedServer) Changing view distance to 16, from 10
+[11:14:07] [Server thread/INFO] (net.minecraft.client.server.IntegratedServer) Changing simulation distance to 12, from 0
+[11:14:08] [Server thread/INFO] (net.minecraft.client.server.IntegratedServer) Saving and pausing game...
+[11:14:08] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[11:14:08] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[11:14:08] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[11:14:18] [Server thread/INFO] (net.minecraft.client.server.IntegratedServer) Saving and pausing game...
+[11:14:18] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[11:14:18] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[11:14:18] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end

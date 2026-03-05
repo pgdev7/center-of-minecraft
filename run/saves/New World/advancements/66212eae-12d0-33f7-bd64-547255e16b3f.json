@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2026-03-05 11:12:19 -0500"
+    },
+    "done": false
+  },
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
       "has_log": "2026-03-05 11:12:29 -0500"
@@ -16,12 +22,6 @@
       "has_logs": "2026-03-05 11:12:29 -0500"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:forest": "2026-03-05 11:12:19 -0500"
-    },
-    "done": false
   },
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {

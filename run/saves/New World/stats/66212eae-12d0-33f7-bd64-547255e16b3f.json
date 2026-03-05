@@ -1,21 +1,23 @@
 {
   "stats": {
     "minecraft:mined": {
-      "minecraft:oak_log": 2
+      "minecraft:oak_log": 3
     },
     "minecraft:picked_up": {
-      "minecraft:oak_log": 2
+      "minecraft:oak_log": 3
     },
     "minecraft:custom": {
-      "minecraft:sprint_one_cm": 517,
-      "minecraft:time_since_rest": 290,
+      "minecraft:sprint_one_cm": 552,
+      "minecraft:time_since_rest": 415,
       "minecraft:fall_one_cm": 450,
-      "minecraft:walk_one_cm": 668,
-      "minecraft:total_world_time": 324,
+      "minecraft:walk_one_cm": 1044,
+      "minecraft:total_world_time": 1959,
+      "minecraft:leave_game": 1,
       "minecraft:fly_one_cm": 788,
-      "minecraft:play_time": 290,
-      "minecraft:jump": 8,
-      "minecraft:time_since_death": 290
+      "minecraft:sneak_time": 12,
+      "minecraft:play_time": 415,
+      "minecraft:jump": 10,
+      "minecraft:time_since_death": 415
     }
   },
   "DataVersion": 4671

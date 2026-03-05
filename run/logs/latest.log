@@ -231,3 +231,66 @@ com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication 
 [11:12:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
 [11:12:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
 [11:12:34] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[11:13:46] [Server thread/INFO] (Minecraft) Player364 lost connection: Disconnected
+[11:13:46] [Server thread/INFO] (Minecraft) Player364 left the game
+[11:13:46] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[11:13:46] [Server thread/INFO] (Minecraft) Stopping server
+[11:13:46] [Server thread/INFO] (Minecraft) Saving players
+[11:13:46] [Server thread/INFO] (Minecraft) Saving worlds
+[11:13:46] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[11:13:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[11:13:49] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[11:13:49] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[11:13:49] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:13:49] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:13:49] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[11:13:57] [Server Pinger #0/ERROR] (Minecraft) Can't ping centerofminecraft.aternos.me : Unknown host
+[11:13:58] [Render thread/INFO] (Minecraft) Connecting to centerofminecraft.aternos.me , 25565
+[11:13:58] [Download-4/ERROR] (Minecraft) Failed to retrieve profile key pair
+com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:103)
+	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.post(MinecraftClient.java:64)
+	at knot//com.mojang.authlib.yggdrasil.YggdrasilUserApiService.getKeyPair(YggdrasilUserApiService.java:61)
+	at knot//net.minecraft.client.multiplayer.AccountProfileKeyPairManager.fetchProfileKeyPair(AccountProfileKeyPairManager.java:128)
+	at knot//net.minecraft.client.multiplayer.AccountProfileKeyPairManager.method_44291(AccountProfileKeyPairManager.java:77)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1814)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+[11:13:59] [Render thread/INFO] (Minecraft) Connecting to centerofminecraft.aternos.me , 25565
+[11:13:59] [Download-4/ERROR] (Minecraft) Failed to retrieve profile key pair
+com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:103)
+	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.post(MinecraftClient.java:64)
+	at knot//com.mojang.authlib.yggdrasil.YggdrasilUserApiService.getKeyPair(YggdrasilUserApiService.java:61)
+	at knot//net.minecraft.client.multiplayer.AccountProfileKeyPairManager.fetchProfileKeyPair(AccountProfileKeyPairManager.java:128)
+	at knot//net.minecraft.client.multiplayer.AccountProfileKeyPairManager.method_44291(AccountProfileKeyPairManager.java:77)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1814)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+[11:14:05] [Render thread/INFO] (Minecraft) Loaded 1470 recipes
+[11:14:05] [Render thread/INFO] (Minecraft) Loaded 1584 advancements
+[11:14:05] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 65 new biomes in 256.8 μs
+[11:14:05] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.11
+[11:14:05] [Server thread/INFO] (Minecraft) Generating keypair
+[11:14:06] [Server thread/INFO] (Minecraft) Loading 0 persistent chunks...
+[11:14:06] [Server thread/INFO] (Minecraft) Preparing spawn area: 16%
+[11:14:06] [Server thread/INFO] (Minecraft) Loading 49 chunks for player spawn...
+[11:14:06] [Server thread/INFO] (Minecraft) Preparing spawn area: 16%
+[11:14:07] [Server thread/INFO] (Minecraft) Preparing spawn area: 16%
+[11:14:07] [Server thread/INFO] (Minecraft) Preparing spawn area: 59%
+[11:14:07] [Server thread/INFO] (Minecraft) Time elapsed: 1672 ms
+[11:14:07] [Server thread/INFO] (Minecraft) Player364[local:E:c2f0b0cd] logged in with entity id 972 at (-4.575644556379657, 120.0, -20.95592753928062)
+[11:14:07] [Server thread/INFO] (Minecraft) Player364 joined the game
+[11:14:07] [Render thread/INFO] (Minecraft) Loaded 5 advancements
+[11:14:07] [Server thread/INFO] (Minecraft) Changing view distance to 16, from 10
+[11:14:07] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[11:14:08] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[11:14:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[11:14:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[11:14:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[11:14:18] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[11:14:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[11:14:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[11:14:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
