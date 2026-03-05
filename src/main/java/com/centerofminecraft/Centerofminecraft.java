@@ -1,7 +1,10 @@
-package com.centerofminecraft;
+		package com.centerofminecraft;
 
+import com.centerofminecraft.nessieMob.NessieAttributes;
+import com.centerofminecraft.nessieMob.NessieEntity;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,5 +23,9 @@ public class Centerofminecraft implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Center of Minecraft initialized! - FRC Team 47");
+		//NessieAttributes.initialize();
+
 	}
+
+
 }
