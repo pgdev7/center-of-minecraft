@@ -25,7 +25,7 @@ from PIL import Image
 SCRIPT_DIR   = Path(__file__).parent
 MC_JAR       = Path.home() / ".gradle/caches/fabric-loom/1.21.11/minecraft-client.jar"
 VANILLA_PATH = "assets/minecraft/textures/entity/creeper/creeper.png"
-OUT_DIR      = SCRIPT_DIR / "src/main/resources/assets/centerofminecraft/textures/entity"
+OUT_DIR      = SCRIPT_DIR / "src/client/resources/assets/centerofminecraft/textures/entity"
 OUT_FILE     = OUT_DIR / "creeper.png"
 
 # ── Creeper texture UV map (all coords in pixels on the 64×32 texture) ───────
