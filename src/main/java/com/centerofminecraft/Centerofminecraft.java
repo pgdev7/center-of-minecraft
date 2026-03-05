@@ -1,10 +1,6 @@
 		package com.centerofminecraft;
 
-import com.centerofminecraft.nessieMob.NessieAttributes;
-import com.centerofminecraft.nessieMob.NessieEntity;
 import net.fabricmc.api.ModInitializer;
-
-import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
