@@ -1,3 +1,5 @@
 {
-  "attribute.name.center-of-minecraft.aggro_range": "Aggro Range"
+  "attribute.name.center-of-minecraft.aggro_range": "Aggro Range",
+  "block.centerofminecraft.sos_robot": "SOS Robot",
+  "block.centerofminecraft.rb26_robot": "RB26 Robot"
 }

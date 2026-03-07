@@ -19,7 +19,7 @@ public class Centerofminecraft implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Center of Minecraft initialized! - FRC Team 47");
-		//NessieAttributes.initialize();
+		com.centerofminecraft.block.ModBlocks.initialize();
 
 	}
 
